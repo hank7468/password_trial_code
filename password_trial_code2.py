@@ -8,4 +8,8 @@ while x > 0:
 		print('password is correct.')
 		break
 	else:
-		print('password is not correct.', 'trials remaining: ', x)
+		print('password is not correct.')
+		if x > 0:
+			print('trials remaining: ', x)
+		else:
+			print('account is locked.')
